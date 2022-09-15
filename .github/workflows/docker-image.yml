@@ -8,7 +8,7 @@ env:
   SYSDIG_URL: https://app.au1.sysdig.com
   REGISTRY: ghcr.io
   IMAGE_NAME: ${{ github.repository }}
-  BYPASS_SCAN_FAIL: false
+  BYPASS_SCAN_FAIL: true
 
 jobs:
   build:
